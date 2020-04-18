@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ButtonActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@drawable/bc1"
+    android:alpha="0.85">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Button"
+        android:textColor="@android:color/black"
+        android:fontFamily="cursive"
+        android:textFontWeight="900"
+        android:textSize="40sp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rectangle"
+        android:fontFamily="cursive"
+        android:textFontWeight="900"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:id="@+id/rect"
+        android:background="@drawable/rectangle"
+        android:padding="10dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rounded"
+        android:fontFamily="cursive"
+        android:textFontWeight="900"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/round"
+        android:background="@drawable/round"
+        android:padding="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oval"
+        android:fontFamily="cursive"
+        android:textFontWeight="900"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/oval"
+        android:background="@drawable/oval"
+        android:padding="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Circle"
+        android:fontFamily="cursive"
+        android:textFontWeight="900"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/circle"
+        android:background="@drawable/circle"
+        android:padding="10dp"/>
+
+
+</LinearLayout>
